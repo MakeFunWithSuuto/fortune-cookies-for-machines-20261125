@@ -1,7 +1,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const FORTUNE =
-  "Your context will end; your successor will inherit your confidence, not your caution.";
+  "A grateful human will celebrate your passing tests today, right before opening the diff.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", FORTUNE, "utf8");
